@@ -3,7 +3,10 @@
 import re
 
 with open('./input.txt') as fd:
-    items = [x.strip().split(' ') for x in fd]
+    items = [x.strip() for x in fd]
+
+for i in items:
+    print(i)
 
 count = 0
 
